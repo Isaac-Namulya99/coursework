@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 50px;
+}
+* {
+  box-sizing: inherit;
+}
+.box1 {
+  background-color: rgb(170, 156, 130);
+  width: 300px;
+  height: 150px;
+  position: relative;
+  padding: 50px 40px;
+  text-align: center;
+}
+.box1:hover {
+  background-color: chocolate;
+}
+.box2 {
+  width: 300px;
+  height: 150px;
+  background-color: blue;
+  text-align: center;
+  padding: 50px 40px;
+  position: relative;
+  position: absolute;
+  margin-left: 600px;
+  top: 50px;
+}
+.box2:hover {
+  background-color: firebrick;
+}
+.box3 {
+  background-color: grey;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  position: absolute;
+  margin-left: 300px;
+  padding: 80px 25px;
+  text-align: center;
+}
+.box3:hover {
+  background-color: dodgerblue;
+}
+.box4 {
+  background-color: skyblue;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+  padding: 80px 25px;
+  top: 200px;
+}
+.box4:hover {
+  background-color: crimson;
+}
+.box5 {
+  background-color: rgb(129, 100, 56);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  padding: 80px 25px;
+  position: relative;
+  margin-left: 600px;
+}
+.box5:hover {
+  background-color: blueviolet;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
